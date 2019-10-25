@@ -1,4 +1,4 @@
-#container {
+#main-container {
     position: absolute;
     top: 25px;
     left: 25px;
@@ -46,4 +46,7 @@ h2 {
     color: pink;
 }
 
-
+.container-fluid {
+    width:100%;
+    padding: 25px;
+}

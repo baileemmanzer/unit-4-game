@@ -15,57 +15,68 @@
 
     <!-- Script -->
     <script src="assets/javascript/game.js"></script>
-    <div id= "container">
+    <div id= "main-container">
         <div class="jumbotron jumbotron-fluid">
             <div class="container"></div>
             <h1>CRYSTAL COLLECTOR</h1>
             <p>There are four crystals below. By clicking on a crystal, you will add points to your score. You win the game by reaching the number in the hot pink box. If your total score goes above the magic number... you LOSE. But if you reach the magic number perfectly, you WIN! Each game, the value of each crystal will change and the magic number will too! GOOD LUCK.</p>
         </div>
-        <!-- <h1> CRYSTAL COLLECTOR </h1>
-        <p>There are four crystals below. By clicking on a crystal, you will add points to your score.</p>
-        <p>You win the game by reaching the number in the hot pink box. If your total score goes above the magic number... you LOSE. But if you reach the magic number perfectly, you WIN!</p>
-        <p>Each game, the value of each crystal will change and the magic number will too! GOOD LUCK.</p> -->
         <br>
 
-        <!-- Div containing crystal buttons -->
-        <div id="portfolio">
-                <a href="portfolio.html" class="button">Portfolio</a>
+        <!-- Buttons containing crystal images -->
+        <div class="crystal-container">
+            <div class="row">
+            <div class="col-sm">
+                <button id="crystal-1">
+                    <img src="assets/images/crystal1.jpg" height="150px" width="200px">
+                </button>
+            </div>
+            <div class="col-sm">
+                <button id="crystal-1">
+                    <img src="assets/images/crystal2.jpg" height="150px" width="200px">
+                </button>
+            </div>
+            <div class="col-sm">
+                <button id="crystal-1">
+                    <img src="assets/images/crystal3.jpg" height="150px" width="200px">
+                </button>
+            </div>
+            <div class="col-sm">
+                <button id="crystal-1">
+                    <img src="assets/images/crystal4.jpg" height="150px" width="200px">
+                </button>
+            </div>
+            </div>
         </div>
-            <img class="photos" src="images/crystal1.jpg">
-       
-        
-        <!-- <div id="buttons">
-            <button id="crystal-1"></button>
-            <button id="crystal-2"></button>
-            <button id="crystal-3"></button>
-            <button id="crystal-4"></button>
-        </div> -->
 
-        <div id="wins">
-            <h2 class="section-title">WINS!</h2>
-            <!-- The div where users wins shows -->
-            <div id="wins"></div>
-        </div>
-        <div id="losses">
-            <h2 class="section-title">LOSSES</h2>
-            <!-- The div where users losses show -->
-            <div id="losses"></div>
-        </div>
-        <div id="total-score">
-            <h2 class="section-title">YOUR TOTAL SCORE</h2>
-            <!-- The div where users total score shows -->
-            <div id="total-score"></div>
-        </div>
-        <div id="random-number">
-            <h1 id="section">#</h3>
+        <br>
+
+        <div class="scores-container">
             <!-- Randomly generated number goes here -->
-            <div id="random-number"></div>
+            <div class="row">
+            <div class="col-sm">
+            random number
+            </div>
+            <!-- The div where users wins shows -->
+            <div class="col-sm">
+            <div class="row">
+            WIN COUNT
+            </div>
+            <br>
+            <!-- The div where users losses show -->
+            <div class="row">
+            LOSS COUNT
+            </div>
+            <br>
+            <!-- The div where users total score shows -->
+            <div class="row">
+            TOTAL SCORE
+            </div>
+            </div>
+            </div>
         </div>
-    </div>
-   
-
+        <div class="container-fluid"></div> 
+    </div> 
               
-
-    
   </body>
 </html>
