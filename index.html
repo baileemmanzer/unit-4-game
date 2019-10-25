@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Crystal Collector Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Script -->
+    <script src="assets/javascript/game.js"></script>
+    <div id= "container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container"></div>
+            <h1>CRYSTAL COLLECTOR</h1>
+            <p>There are four crystals below. By clicking on a crystal, you will add points to your score. You win the game by reaching the number in the hot pink box. If your total score goes above the magic number... you LOSE. But if you reach the magic number perfectly, you WIN! Each game, the value of each crystal will change and the magic number will too! GOOD LUCK.</p>
+        </div>
+        <!-- <h1> CRYSTAL COLLECTOR </h1>
+        <p>There are four crystals below. By clicking on a crystal, you will add points to your score.</p>
+        <p>You win the game by reaching the number in the hot pink box. If your total score goes above the magic number... you LOSE. But if you reach the magic number perfectly, you WIN!</p>
+        <p>Each game, the value of each crystal will change and the magic number will too! GOOD LUCK.</p> -->
+        <br>
+
+        <!-- Div containing crystal buttons -->
+        <div id="portfolio">
+                <a href="portfolio.html" class="button">Portfolio</a>
+        </div>
+            <img class="photos" src="images/crystal1.jpg">
+       
+        
+        <!-- <div id="buttons">
+            <button id="crystal-1"></button>
+            <button id="crystal-2"></button>
+            <button id="crystal-3"></button>
+            <button id="crystal-4"></button>
+        </div> -->
+
+        <div id="wins">
+            <h2 class="section-title">WINS!</h2>
+            <!-- The div where users wins shows -->
+            <div id="wins"></div>
+        </div>
+        <div id="losses">
+            <h2 class="section-title">LOSSES</h2>
+            <!-- The div where users losses show -->
+            <div id="losses"></div>
+        </div>
+        <div id="total-score">
+            <h2 class="section-title">YOUR TOTAL SCORE</h2>
+            <!-- The div where users total score shows -->
+            <div id="total-score"></div>
+        </div>
+        <div id="random-number">
+            <h1 id="section">#</h3>
+            <!-- Randomly generated number goes here -->
+            <div id="random-number"></div>
+        </div>
+    </div>
+   
+
+              
+
+    
+  </body>
+</html>
