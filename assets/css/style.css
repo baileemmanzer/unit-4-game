@@ -13,7 +13,7 @@ div {
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    color: #ff88ff;
+    color: #9370DB;
     padding-bottom: 15px;
     padding-left: 25px;
 }
@@ -22,26 +22,28 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px; 
     padding: 0 25px 0 25px;
-}
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-size: 15px; */
-    color: #ff88ff;
-    text-align: right;
-    width: 50%;
-}
-
-#randon-number {
-    position: left;
-    height: 250px;
-    padding: 25px;
-    text-align: center;
-    background-color: #ff88ff;
-    width: 50%;
+    color: black;
 }
 
 .container-fluid {
     width:100%;
     padding: 25px;
+}
+
+#randomNumber {
+    font-size: 50px;
+    padding: 0 0 0 250px;
+    color: #9370DB;
+}
+
+#wins {
+    color: #9370DB;
+}
+
+#losses {
+    color: #9370DB;
+}
+
+#totalScore {
+    color: #9370DB;
 }

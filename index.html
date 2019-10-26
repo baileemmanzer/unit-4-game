@@ -13,12 +13,10 @@
     <!-- Jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <!-- Script -->
-    <script src="assets/javascript/game.js"></script>
     <div id= "main-container">
         <div class="jumbotron jumbotron-fluid">
             <div class="container"></div>
-            <h1>CRYSTAL COLLECTOR</h1>
+            <h1><strong>CRYSTAL COLLECTOR</strong></h1>
             <p>There are four crystals below. By clicking on a crystal, you will add points to your score. You win the game by reaching the number in the hot pink box. If your total score goes above the magic number... you LOSE. But if you reach the magic number perfectly, you WIN! Each game, the value of each crystal will change and the magic number will too! GOOD LUCK.</p>
         </div>
         <br>
@@ -52,31 +50,36 @@
         <br>
 
         <div class="scores-container">
-            <!-- Randomly generated number goes here -->
-            <div class="row">
-            <div class="col-sm">
-            <p id="randomNumber">random number</p>
-            </div>
             <!-- The div where users wins shows -->
+            <div class="row">
             <div class="col-sm">
             <div class="row">
-            <p>WIN COUNT: <span id="wins"></span></p>
+                <p><strong>WINS:</strong><span id="wins"></span></p>
             </div>
             <br>
             <!-- The div where users losses show -->
             <div class="row">
-            <p>LOSS COUNT: <span id="losses"></span></p>
+                <p><strong>LOSSES:</strong><span id="losses"></span></p>
             </div>
             <br>
             <!-- The div where users total score shows -->
             <div class="row">
-            <p>TOTAL SCORE: <span id="totalScore"></span></p>
+                <p><strong>TOTAL SCORE:</strong> <span id="totalScore"></span></p>
+            </div>
+            </div>
+            <!-- Randomly generated # goes here-->
+            <div class="col-sm">
+            <br>
+            <br>
+            <div class="row">
+                <p id="randomNumber">random number</p>
             </div>
             </div>
             </div>
         </div>
         <div class="container-fluid"></div> 
     </div> 
-              
+    <!-- Script -->
+    <script src="assets/javascript/game.js"></script>   
   </body>
 </html>
